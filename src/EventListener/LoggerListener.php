@@ -48,6 +48,10 @@ class LoggerListener implements EventSubscriberInterface
         }
     }
 
+    /**
+     * Suppress deprecation notice until return types are added to this bundle.
+     * @return array
+     */
     public static function getSubscribedEvents()
     {
         return array(
